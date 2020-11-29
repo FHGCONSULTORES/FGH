@@ -1,0 +1,82 @@
+/* Required for full background image */
+
+  html,
+  body,
+  .view {
+    height: 100%;
+  }
+  body{
+	font-family: 'Amiri', serif;
+	color: #5B636B;
+}
+#carousel-thumb{
+	margin:10px 10px 10px 10px;
+}
+.nav-scroller{
+	margin-top: 85px;
+}
+.titulo{
+	font-size: 50px;
+	font-family: 'Amiri', serif;
+	color: #FFD700;
+	text-shadow: 2px 2px 2px grey; 
+}
+main{
+	margin:10px 10px 10px 10px;
+}
+rect{
+	box-shadow: 5px 5px 5px grey;
+
+}
+h1{
+    font-weight: 300;
+    font-size: 50px;
+	font-family: 'Amiri', serif;
+	color: #FFD700;
+	text-shadow: 2px 2px 2px grey; 
+
+}
+.nav-link{
+	font-size: 20px;
+}
+.font-weight-bold{
+    font-weight: 900!important;
+    color: #FFD700;
+	text-shadow: 2px 2px 2px grey;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+.view {
+height: 1100px;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+html,
+body,
+header,
+.view {
+height: 700px;
+}
+}
+.top-nav-collapse {
+	background-color: #ffc107 !important;
+	transition: 7s;	
+
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+	.navbar:not(.top-nav-collapse) {
+	background: rgba(0, 0, 0, 0.7) !important;
+}
+}
+
+h6 {
+line-height: 1.7;
+}
+

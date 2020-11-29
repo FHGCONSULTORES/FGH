@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Amiri', serif;
+  color: #5B636B;
+}
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
